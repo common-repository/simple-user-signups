@@ -1,0 +1,115 @@
+#sus_email{
+	margin:0 10px;
+}
+#sus_pass, .strength{
+	margin-left:43px;
+}
+#sus_submit{
+	margin-top:0;
+}
+#hidden-pswrd{
+	display:none;
+}
+.sus_wrapper{
+	padding: 20px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	background-color: rgb(250, 250, 250);
+}
+.sus_error, .sus_success, .js_sus_error{
+	display:inline-block;
+	text-align: center;
+	width:100%;
+	color:white;
+	border-radius:4px;
+	padding:5px;
+	margin-bottom:10px;
+}
+.sus_error, .js_sus_error{
+	background-color:#ED6969;
+}
+.sus_success, .js_sus_success{
+	background-color:#A1DD84;
+	border:1px 1px solid  #008000;
+}
+.sus_wrapper #loginform input[type="text"]{
+	margin-left: 40px;
+}
+.sus_wrapper #loginform input[type="password"]{
+	margin-left: 10px;
+}
+.sus_button{
+    background-color: #6AD647;
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.sus_button:hover{
+	background-color: rgb(101, 152, 171);
+	text-decoration: none !important;
+	color: #fff !important;
+}
+.sus-button:active{
+	text-decoration: none !important;
+}
+/* ADMIN STYLING */
+.sus-wrap table{
+	width:100%;
+}
+.sus-wrap table input[type="text"]{
+	width:100%;
+}
+.sus-donate-button{
+	margin:20px;
+	height: 47px;
+    width: 173px;
+    display: block;
+    opacity: 1;
+    text-indent: -257px;
+    overflow: hidden;
+    background:url('https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif');
+    background-repeat: none;
+}
+
+/* Strength JS */
+
+.strength_meter{
+	height: 20px;
+	background: #C0C0C0 none repeat scroll 0% 0%;
+	width: 208px;
+	margin-top: 5px;
+	margin-left: 119px;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.strength_meter div{
+	height:23px;
+	width:100%;
+	height:23px;
+	text-align:center;
+	color:black;
+	font-weight:bold;
+	line-height: 18px;
+	font-size: 18px;
+}
+.button_strength{
+	font-size:18px;
+	margin-left:20px;
+}
+.veryweak{
+	background-color: #FFA0A0;
+	border-color: #F04040!important
+}
+.weak{
+	background-color: #FFB78C;
+	border-color: #FF853C!important;
+}
+.medium{
+	background-color: #FFEC8B;
+	border-color: #FC0!important;
+}
+.strong{
+	background-color: #C3FF88;
+	border-color: #8DFF1C!important;
+}
